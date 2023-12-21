@@ -1,0 +1,157 @@
+body {
+  background-color: #EDEDED;
+}
+
+.bg-main-color {
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  background-color: #97adc3;
+}
+
+.navbar-title {
+  margin: 0 auto;
+}
+.navbar-brand {
+  color: white;
+  font-size: 30px;
+}
+
+/* メイン */
+article {
+  background-color: white;
+  padding: 28px 640px 40px 640px;
+  margin-left: 428px;
+  margin-right: 428px;
+}
+
+/* 使用方法 */
+.text-content {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: solid 1px black;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 654px;
+  height: 254px;
+  line-height:2;
+}
+
+#use { 
+  text-align: center;
+  color: #E6553D;
+  font-size: 24px;
+  
+}
+
+#list {
+  color: black;
+  font-size: 22px;
+}
+
+/* 翻訳 */
+.flexbox-area {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+#analysis {
+  background-color: #EDEDED;
+  margin-top: 68px;
+
+}
+
+/* 画像プレビュー */
+#preview-content {
+  font-size: 22px;
+  color: #E6553D;
+  text-align: center;
+  margin-top: 94px;
+  margin-bottom: 120px;
+  margin-left: 54px;
+}
+
+#preview {
+  background-color: white;
+  width: 468px;
+  height: 600px;
+  border: solid 1px black;
+} 
+
+/*  ボタン配置*/
+.button-design {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* 画像選択 */
+form {
+  background-color: white;
+  width: 220px;
+  height: 54px;
+  font-size: 20px;
+  margin-top: 188px;
+  margin-left: 134px;
+  margin-right: 348px;
+  }
+
+/* 言語・保存方法選択 */
+.function-select {
+  float: inline-start;
+  font-size: 14px;
+  width: 212px;
+  height: 54px;
+  margin-top: 95px;
+ }
+ 
+ #format_select {
+  margin-left: 68px;
+ }
+
+ /* 翻訳ボタン */
+button {
+  font-size: 20px;
+  width: 234px;
+  height: 54px;
+  background-color: white;
+
+}
+
+/* 各ボタンにホバー設定 */
+.button-design:hover {
+  background-color: #E6553D;
+  color: white;
+}
+
+/* 翻訳画面 */
+#analysis-content {
+  font-size: 22px;
+  color: #E6553D;
+  text-align: center;
+  border: none;
+  margin-top: 94px;
+  margin-right: 54px;
+  margin-bottom: 120px;
+}
+
+#result_text {
+  background-color: white;
+  width: 468px;
+  height: 600px;
+}
+
+/* フッター */
+footer {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 174px;
+  font-size: 16px;
+  padding-top: 40px;
+  background-color: #97adc3;
+}
